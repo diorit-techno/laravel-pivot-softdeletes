@@ -2,6 +2,17 @@
 
 ## Installation
 
+Add this lines to `composer.json`:
+
+```
+"repositories": [
+    {
+        "type": "github",
+        "url": "https://github.com/diorit-techno/laravel-pivot-softdeletes.git"
+    }
+],
+```
+
 Require this package with composer:
 ```
 composer require ddzobov/laravel-pivot-softdeletes
